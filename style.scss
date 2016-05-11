@@ -1,0 +1,10 @@
+@import "reset";
+
+$font-stack: Helvetica, Arial, sans-serif;
+$body-color: #0079BF;
+
+body {
+  font: $font-stack;
+  color: #FFF;
+  background-color: $body-color;
+}
