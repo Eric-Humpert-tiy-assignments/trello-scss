@@ -2,9 +2,20 @@
 
 $font-stack: Helvetica, Arial, sans-serif;
 $body-color: #0079BF;
+$header-color: #0067A3;
 
 body {
   font: $font-stack;
   color: #FFF;
   background-color: $body-color;
+}
+
+header {
+  background-color: $header-color;
+  width: 100%;
+  .logo-holder {
+    color: rgba(0, 121, 191, 1.0);
+    height: 2em;
+    padding: .25em 0;
+  }
 }

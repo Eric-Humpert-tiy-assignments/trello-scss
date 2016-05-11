@@ -49,3 +49,11 @@ body {
   font: Helvetica, Arial, sans-serif;
   color: #FFF;
   background-color: #0079BF; }
+
+header {
+  background-color: #0067A3;
+  width: 100%; }
+  header .logo-holder {
+    color: #0079bf;
+    height: 2em;
+    padding: .25em 0; }
