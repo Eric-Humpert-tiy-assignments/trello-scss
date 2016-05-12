@@ -2,10 +2,12 @@
 
 $font-stack: Helvetica, Arial, sans-serif;
 $body-color: #0079BF;
+$column-color: rgba(226, 228, 230, 1.0);
+$li-color: rgba(255, 255, 255, 1.0);
 $header-color: #0067A3;
 
 body {
-  font: $font-stack;
+  font-family: $font-stack;
   color: #FFF;
   background-color: $body-color;
 }
@@ -14,8 +16,29 @@ header {
   background-color: $header-color;
   width: 100%;
   .logo-holder {
-    color: rgba(0, 121, 191, 1.0);
+    color: $column-color;
     height: 2em;
     padding: .25em 0;
+  }
+}
+
+.column {
+  background-color: rgba(226, 228, 230, 1.0);
+  border-radius: .25em;
+  margin: 0 auto;
+  padding: 2em;
+  width: 25%;
+  h2 {
+    color: rgba(77, 77, 77, 1.0);
+    font-weight: bold;
+  }
+
+
+  li {
+    background-color: $li-color;
+    border-radius: .25em;
+    color: rgba(77, 77, 77, 1.0);
+    margin: 1em;
+    padding: 1em;
   }
 }

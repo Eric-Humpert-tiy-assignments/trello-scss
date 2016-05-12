@@ -46,7 +46,7 @@ table {
   border-spacing: 0; }
 
 body {
-  font: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #FFF;
   background-color: #0079BF; }
 
@@ -54,6 +54,22 @@ header {
   background-color: #0067A3;
   width: 100%; }
   header .logo-holder {
-    color: #0079bf;
+    color: #e2e4e6;
     height: 2em;
     padding: .25em 0; }
+
+.column {
+  background-color: #e2e4e6;
+  border-radius: .25em;
+  margin: 0 auto;
+  padding: 2em;
+  width: 25%; }
+  .column h2 {
+    color: #4d4d4d;
+    font-weight: bold; }
+  .column li {
+    background-color: white;
+    border-radius: .25em;
+    color: #4d4d4d;
+    margin: 1em;
+    padding: 1em; }
