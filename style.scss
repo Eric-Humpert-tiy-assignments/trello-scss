@@ -22,11 +22,18 @@ header {
   }
 }
 
+section {
+  color: #FFF;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: .5em;
+}
+
 .column {
   background-color: rgba(226, 228, 230, 1.0);
   border-radius: .25em;
   margin: 0 auto;
-  padding: 2em;
+  padding: .25em;
   width: 25%;
   h2 {
     color: rgba(77, 77, 77, 1.0);
@@ -38,7 +45,12 @@ header {
     background-color: $li-color;
     border-radius: .25em;
     color: rgba(77, 77, 77, 1.0);
-    margin: 1em;
+    margin: .5em .75em;
     padding: 1em;
+    text-align: left;
+
+    .icon-description:before {
+      content: '\e911';
+    }
   }
 }
